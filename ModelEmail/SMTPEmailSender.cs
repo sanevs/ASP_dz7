@@ -8,7 +8,7 @@ namespace ModelEmail;
 public class SMTPEmailSender : IEmail
 {
     private SMTPUserData _sMTPUserData;
-    public SMTPEmailSender(IOptions<SMTPUserData> options)
+    public SMTPEmailSender(IOptionsSnapshot<SMTPUserData> options)
     {
         _sMTPUserData = options.Value;
     }
