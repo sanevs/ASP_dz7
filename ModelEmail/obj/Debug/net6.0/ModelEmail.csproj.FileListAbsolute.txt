@@ -1,0 +1,12 @@
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\bin\Debug\net6.0\ModelEmail.deps.json
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\bin\Debug\net6.0\ModelEmail.dll
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\bin\Debug\net6.0\ref\ModelEmail.dll
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\bin\Debug\net6.0\ModelEmail.pdb
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ModelEmail.csproj.AssemblyReference.cache
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ModelEmail.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ModelEmail.AssemblyInfoInputs.cache
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ModelEmail.AssemblyInfo.cs
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ModelEmail.csproj.CoreCompileInputs.cache
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ModelEmail.dll
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ref\ModelEmail.dll
+D:\Mystat домашка\ASP\ASP_KW7\ModelEmail\obj\Debug\net6.0\ModelEmail.pdb

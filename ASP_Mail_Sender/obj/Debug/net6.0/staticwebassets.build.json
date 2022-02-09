@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FP0AqtRyjtRo+D2OfN8Gx8xclR6WsnoCymI1+ZMS0A4=",
+  "Source": "ASP_Mail_Sender",
+  "BasePath": "_content/ASP_Mail_Sender",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
