@@ -28,3 +28,4 @@ D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Microsoft.
 D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Microsoft.Extensions.Options.dll

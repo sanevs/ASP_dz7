@@ -57,6 +57,18 @@
           }
         }
       },
+      "Microsoft.Extensions.Options/6.0.2-mauipre.1.22054.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Primitives": "6.0.2-mauipre.1.22054.8"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.5408"
+          }
+        }
+      },
       "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22054.8": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.2-mauipre.1.22054.8"
@@ -78,7 +90,8 @@
       },
       "ModelEmail/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Hosting.Abstractions": "6.0.2-mauipre.1.22054.8"
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.2-mauipre.1.22054.8",
+          "Microsoft.Extensions.Options": "6.0.2-mauipre.1.22054.8"
         },
         "runtime": {
           "ModelEmail.dll": {}
@@ -119,6 +132,13 @@
       "sha512": "sha512-twwYTIkt/NQH+crrrnSGgjg+I1zU08Uyzp6O44KfzQ0dIcFhpYGT3HG+Khj7snzjtmDw1WF1aFWAPi+NYdv6Vg==",
       "path": "microsoft.extensions.hosting.abstractions/6.0.2-mauipre.1.22054.8",
       "hashPath": "microsoft.extensions.hosting.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/6.0.2-mauipre.1.22054.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5OhJf4x+tu37UzJkv0Fu1wJoE5W3UsW8DSoNeSfo73W3KiI8KymIitOr/r/RN1AK0y69sD01l9u5kwqQm2T/og==",
+      "path": "microsoft.extensions.options/6.0.2-mauipre.1.22054.8",
+      "hashPath": "microsoft.extensions.options.6.0.2-mauipre.1.22054.8.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/6.0.2-mauipre.1.22054.8": {
       "type": "package",

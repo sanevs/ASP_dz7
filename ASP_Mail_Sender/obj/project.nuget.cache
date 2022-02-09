@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ib72xx3gmL7u8vuHe/RGut+VR8GJyeZW6tqIqfUvQQ2lRsE4fQIWrUdhTPRQec5hmyxYbd3bIR/5ZHnd0BBaUA==",
+  "dgSpecHash": "oAmWqGVFc9ILBtsR0kfaqeNv4InHZkSedmwUj4s6kApZ9rfGHgTvgvDm31/KjoU3yaciHRV6Bnkgw0ZG2dIGcw==",
   "success": true,
   "projectFilePath": "D:\\Mystat домашка\\ASP\\ASP_KW7\\ASP_Mail_Sender\\ASP_Mail_Sender.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Влад\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.2-mauipre.1.22054.8\\microsoft.extensions.dependencyinjection.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.2-mauipre.1.22054.8\\microsoft.extensions.fileproviders.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.2-mauipre.1.22054.8\\microsoft.extensions.hosting.abstractions.6.0.2-mauipre.1.22054.8.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\microsoft.extensions.options\\6.0.2-mauipre.1.22054.8\\microsoft.extensions.options.6.0.2-mauipre.1.22054.8.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.2-mauipre.1.22054.8\\microsoft.extensions.primitives.6.0.2-mauipre.1.22054.8.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.2-mauipre.1.22054.8\\system.runtime.compilerservices.unsafe.6.0.2-mauipre.1.22054.8.nupkg.sha512"
   ],
