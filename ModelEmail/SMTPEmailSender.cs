@@ -7,25 +7,26 @@ namespace ModelEmail;
 
 public class SMTPEmailSender : IEmail
 {
-    private SMTPUserData _sMTPUserData;
-    public SMTPEmailSender(IOptionsSnapshot<SMTPUserData> options)
+    private IOptionsMonitor<SMTPUserData> _options;
+    public SMTPEmailSender(IOptionsMonitor<SMTPUserData> options)
     {
-        _sMTPUserData = options.Value;
+        _options = options;
     }
     public async Task<string> Send(string text, CancellationToken cancellationToken)
     {
-        var smtpClient = new SmtpClient(_sMTPUserData.SmtpServer.ToString())
+        var smtpUserData = _options.CurrentValue;
+        var smtpClient = new SmtpClient(smtpUserData.SmtpServer.ToString())
         {
-            Port = _sMTPUserData.Port,
-            Credentials = new NetworkCredential(_sMTPUserData.Sender, _sMTPUserData.Password),
+            Port = smtpUserData.Port,
+            Credentials = new NetworkCredential(smtpUserData.Sender, smtpUserData.Password),
             EnableSsl = true,
         };
 
         await smtpClient.SendMailAsync(
-            _sMTPUserData.Sender,
-            _sMTPUserData.Recipient,
+            smtpUserData.Sender,
+            smtpUserData.Recipient,
             "Email test",
             text, cancellationToken);
-        return "Success";
+        return $"Email successfully sent to {smtpUserData.Recipient}";
     }
 }
