@@ -2,5 +2,5 @@ namespace ModelEmail;
 
 public interface IEmail
 {
-    Task<string> Send(string text, CancellationToken cancellationToken);
+    Task<string>? SendAsync(string text, CancellationToken cancellationToken);
 }

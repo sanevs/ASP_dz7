@@ -1,21 +1,25 @@
 using System.Net;
 using System.Net.Mail;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Microsoft.VisualBasic.FileIO;
 
 namespace ModelEmail;
 
 public class SMTPEmailSender : IEmail
 {
     private IOptionsMonitor<SMTPUserData> _options;
-    public SMTPEmailSender(IOptionsMonitor<SMTPUserData> options)
+    private readonly ILogger<SMTPEmailSender> _logger;
+    public SMTPEmailSender(IOptionsMonitor<SMTPUserData> options, ILogger<SMTPEmailSender> logger)
     {
         _options = options;
+        _logger = logger;
+        _logger.LogInformation("Server started");
     }
-    public async Task<string> Send(string text, CancellationToken cancellationToken)
+
+    public async Task<string>? SendAsync(string text, CancellationToken cancellationToken = default)
     {
         var smtpUserData = _options.CurrentValue;
-        var smtpClient = new SmtpClient(smtpUserData.SmtpServer.ToString())
+        using var smtpClient = new SmtpClient(smtpUserData.SmtpServer.ToString())
         {
             Port = smtpUserData.Port,
             Credentials = new NetworkCredential(smtpUserData.Sender, smtpUserData.Password),
@@ -27,6 +31,10 @@ public class SMTPEmailSender : IEmail
             smtpUserData.Recipient,
             "Email test",
             text, cancellationToken);
-        return $"Email successfully sent to {smtpUserData.Recipient}";
+
+        string sendLogText = $"Email successfully sent to {smtpUserData.Recipient}";
+
+        _logger.LogInformation(sendLogText);
+        return sendLogText;
     }
 }

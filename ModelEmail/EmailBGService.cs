@@ -16,9 +16,15 @@ public class EmailBGService : BackgroundService
         var timer = new PeriodicTimer(TimeSpan.FromSeconds(30));
         while (await timer.WaitForNextTickAsync(stoppingToken))
         {
-            _sender.Send(
-                $"Сервер работает, используемая память {GC.GetTotalMemory(false)} байтов", 
-                stoppingToken);
+            try
+            {
+                await _sender.SendAsync(
+                    $"Сервер работает, используемая память {GC.GetTotalMemory(false)} байтов", 
+                    stoppingToken);
+            }
+            catch (Exception e)
+            {
+            }
         }
     }
 }
