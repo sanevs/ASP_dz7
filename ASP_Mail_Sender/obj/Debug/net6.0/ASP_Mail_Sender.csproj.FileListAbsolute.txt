@@ -45,3 +45,4 @@ D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Serilog.Se
 D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Serilog.Expressions.dll
+D:\Mystat домашка\ASP\ASP_KW7\ASP_Mail_Sender\bin\Debug\net6.0\Polly.dll

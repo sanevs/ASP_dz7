@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S0pjLfQ0bxzsww3u33ZyqFctnAFFhCa0Yl4R0WS9DsAhI96NqsLNDiXK+1JeLU7Vmipp3VjZJKBuhTXAzWjgVQ==",
+  "dgSpecHash": "HX8hQz3iXA7kXATAGdFn4Y2C/GaeAQiugNwFbf72dfs9d9AzJlEIDJWFS4Mk2PsUrFy4m3mKuFDhYLfZWdL5fA==",
   "success": true,
   "projectFilePath": "D:\\Mystat домашка\\ASP\\ASP_KW7\\ASP_Mail_Sender\\ASP_Mail_Sender.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\Влад\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\Влад\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
     "C:\\Users\\Влад\\.nuget\\packages\\serilog.aspnetcore\\4.1.0\\serilog.aspnetcore.4.1.0.nupkg.sha512",

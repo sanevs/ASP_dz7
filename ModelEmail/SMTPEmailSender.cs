@@ -23,7 +23,7 @@ public class SMTPEmailSender : IEmail
         {
             Port = smtpUserData.Port,
             Credentials = new NetworkCredential(smtpUserData.Sender, smtpUserData.Password),
-            EnableSsl = true,
+            EnableSsl = true, 
         };
 
         await smtpClient.SendMailAsync(

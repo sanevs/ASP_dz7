@@ -2,6 +2,7 @@ using Microsoft.Extensions.Logging.Configuration;
 using ModelEmail;
 using Serilog;
 using Serilog.Core;
+using Serilog.Events;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,8 +11,16 @@ builder.Services.Configure<SMTPUserData>(configSection);
 
 builder.Services.AddSingleton<IEmail, SMTPEmailSender>();
 builder.Services.AddHostedService<EmailBGService>();
+builder.Host.UseSerilog((context, config) =>
+{
+    config
+        .WriteTo.Console(LogEventLevel.Information)
+        .WriteTo.File("log-.txt", 
+            LogEventLevel.Debug, 
+            rollingInterval: RollingInterval.Minute);
+});
 var app = builder.Build();
-
+//app.UseSerilogRequestLogging();
 Log.Logger = new LoggerConfiguration().WriteTo.Console().CreateBootstrapLogger();
 
 /*
@@ -44,7 +53,7 @@ async Task<string>? Send(HttpContext context)
         catch (Exception ex)
         {
             Log.Error(e, errorMessage + "{@ConnectionInfo}", context.Connection);
-            return await Task.Run(() => errorMessage);
+            return errorMessage;
         }
     }
 
