@@ -1,2 +1,2 @@
-    "Recipient": "vavland@mail.ru"
-    "Recipient": "vashchenkovvlad@gmail.com"
+    "Recipient": "email@mail.ru"
+    "Recipient": "email@gmail.com"
